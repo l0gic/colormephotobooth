@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(npm run build)",
+      "Skill(frontend-design:frontend-design)",
+      "Bash(npm install:*)",
+      "Bash(find:*)",
+      "Bash(npm run dev:*)",
+      "Bash(test:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
