@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <EventThemeProvider event="kiddie_party">
+    <EventThemeProvider event="kiddie-party">
       {children}
     </EventThemeProvider>
   );
