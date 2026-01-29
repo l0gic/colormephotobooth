@@ -3,11 +3,6 @@
   "outputDirectory": ".next",
   "framework": "nextjs",
   "installCommand": "npm ci",
-  "env": {
-    "NEXT_PUBLIC_N8N_WEBHOOK_URL": "@next-public-n8n-webhook-url",
-    "NEXT_PUBLIC_N8N_LEAD_WEBHOOK_URL": "@next-public-n8n-lead-webhook-url",
-    "NEXT_PUBLIC_N8N_CHATBOT_WEBHOOK_URL": "@next-public-n8n-chatbot-webhook-url"
-  },
   "headers": [
     {
       "source": "/(.*)",
