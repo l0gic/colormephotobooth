@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Unbounded, Outfit } from "next/font/google";
 import "./globals.css";
-import N8NChatWidget from "@/components/N8NChatWidget";
+import ColorMeChatWidget from "@/components/ColorMeChatWidget";
 
 const unbounded = Unbounded({
   variable: "--font-unbounded",
@@ -44,7 +44,7 @@ export default function RootLayout({
       <body
         className={`${unbounded.variable} ${outfit.variable} font-outfit antialiased bg-white text-gray-900`}
       >
-        <N8NChatWidget />
+        <ColorMeChatWidget />
         {children}
       </body>
     </html>
