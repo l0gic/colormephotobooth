@@ -11,7 +11,7 @@ const socialLinks = [
   },
   {
     name: 'Facebook',
-    href: 'https://www.facebook.com/coloringbookbooth',
+    href: 'https://www.facebook.com/coloringphotobooth/',
     icon: Facebook,
     hoverBg: 'hover:bg-blue-600',
   },

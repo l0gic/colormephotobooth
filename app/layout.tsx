@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: 'https://ph.colormephotobooth.com/imgs/og-image.png',
+        url: 'https://ph.colormephotobooth.com/imgs/og-image.v00002.png',
         width: 1200,
         height: 630,
         alt: 'Color Me Booth - Premium Photo Booth Rental Manila',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    images: ['https://ph.colormephotobooth.com/imgs/og-image.png'],
+    images: ['https://ph.colormephotobooth.com/imgs/og-image.v00002.png'],
   },
 };
 

@@ -42,13 +42,18 @@ export default function HubNavigation() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <Link href="/" className="flex items-center gap-2 bounce-hover">
-          <div className="w-10 h-10 bg-gradient-to-br from-indigo-600 via-purple-500 to-pink-500 rounded-xl flex items-center justify-center text-white shadow-lg wiggle-hover">
-            <Palette className="w-5 h-5" />
+        <Link href="/" className="flex items-center gap-3 bounce-hover">
+          <div className="w-12 h-12 bg-gradient-to-br from-indigo-600 via-purple-500 to-pink-500 rounded-2xl flex items-center justify-center text-white shadow-xl wiggle-hover">
+            <Palette className="w-6 h-6" />
           </div>
-          <span className="text-xl font-bold tracking-tighter text-gray-900">
-            COLOR ME <span className="rainbow-text">BOOTH</span>
-          </span>
+          <div className="flex flex-col">
+            <span className="text-2xl font-black tracking-tight leading-none">
+              <span className="rainbow-text">COLORING</span>
+            </span>
+            <span className="text-lg font-bold tracking-widest text-gray-900 uppercase leading-none mt-0.5 logo-secondary">
+              PHOTOBOOTH
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Navigation */}

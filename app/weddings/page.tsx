@@ -54,7 +54,7 @@ export default function WeddingPage() {
                     </svg>
                   </a>
                   <a
-                    href="https://www.facebook.com/coloringbookbooth"
+                    href="https://www.facebook.com/coloringphotobooth/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-white rounded-xl shadow-md border-2 border-gray-200 flex items-center justify-center hover:bg-blue-600 hover:text-white hover:border-transparent transition-all bounce-hover"

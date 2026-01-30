@@ -154,6 +154,29 @@ h1, h2, h3, h4, h5, h6 {
   animation: rainbow 3s linear infinite;
 }
 
+/* Logo secondary text - photobooth */
+.logo-secondary {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.logo-secondary::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #ef4444, #f59e0b, #10b981, #3b82f6, #8b5cf6, #ec4899);
+  background-size: 200% auto;
+  transition: width 0.4s ease;
+}
+
+.bounce-hover:hover .logo-secondary::after {
+  width: 100%;
+  animation: rainbow 3s linear infinite;
+}
+
 /* Colorful border animation */
 .colorful-border {
   position: relative;
