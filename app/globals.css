@@ -660,6 +660,74 @@ h1, h2, h3, h4, h5, h6 {
   pointer-events: none;
 }
 
+/* =============================================================================
+   N8N Chat Widget Override Styles - Production Fix
+   These !important rules override the n8n library's default styles
+   ============================================================================= */
+
+/* Override chat window header background and text color */
+#n8n-chat .n8n-chat-window-header,
+#n8n-chat [class*="header"] {
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #ec4899 100%) !important;
+  color: #ffffff !important;
+}
+
+#n8n-chat .n8n-chat-window-header h1,
+#n8n-chat .n8n-chat-window-header h2,
+#n8n-chat .n8n-chat-window-header h3,
+#n8n-chat .n8n-chat-window-header p,
+#n8n-chat .n8n-chat-window-header span,
+#n8n-chat [class*="header"] h1,
+#n8n-chat [class*="header"] h2,
+#n8n-chat [class*="header"] h3,
+#n8n-chat [class*="header"] p,
+#n8n-chat [class*="header"] span {
+  color: #ffffff !important;
+}
+
+/* Override chat body background */
+#n8n-chat .n8n-chat-feed,
+#n8n-chat [class*="body"],
+#n8n-chat [class*="messages"] {
+  background: linear-gradient(180deg, #F8F9FF 0%, #fef3c7 50%, #fce7f3 100%) !important;
+}
+
+/* Override toggle button */
+#n8n-chat .n8n-chat-toggle,
+#n8n-chat [class*="toggle"] {
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%) !important;
+  color: #ffffff !important;
+}
+
+#n8n-chat .n8n-chat-toggle:hover,
+#n8n-chat [class*="toggle"]:hover {
+  background: linear-gradient(135deg, #5855d9 0%, #9333ea 100%) !important;
+}
+
+/* Override user messages */
+#n8n-chat .n8n-chat-message-user,
+#n8n-chat [class*="message"][class*="user"] {
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%) !important;
+  color: #ffffff !important;
+}
+
+/* Override bot messages */
+#n8n-chat .n8n-chat-message-bot,
+#n8n-chat [class*="message"][class*="bot"],
+#n8n-chat [class*="message"]:not([class*="user"]) {
+  background: #ffffff !important;
+  color: #171717 !important;
+  border: 2px solid #e0e7ff !important;
+}
+
+/* Override send button */
+#n8n-chat .n8n-chat-send-button,
+#n8n-chat [class*="send"],
+#n8n-chat button[type="submit"] {
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%) !important;
+  color: #ffffff !important;
+}
+
 /* Custom scrollbar for chat messages - scoped to n8n-chat */
 #n8n-chat *::-webkit-scrollbar {
   width: var(--chat--scrollbar--width, 8px);
